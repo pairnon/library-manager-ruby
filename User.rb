@@ -13,7 +13,7 @@ class User
         return @id
     end
 
-    def to_string()
+    def to_s()
         out = ""
         out += "Name: " + @name + " | ID: " + @id.to_s
         return out
