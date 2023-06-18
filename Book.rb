@@ -5,15 +5,15 @@ class Book
         @author = author
     end
 
-    def getTitle()
+    def get_title()
         return @title
     end
 
-    def getAuthor()
+    def get_author()
         return @author
     end
 
-    def toString()
+    def to_string()
         return @title + " by " + @author + "\n";
     end
     
