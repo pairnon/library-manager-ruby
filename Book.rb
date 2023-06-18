@@ -14,7 +14,7 @@ class Book
     end
 
     def to_string()
-        return @title + " by " + @author + "\n";
+        return @title + " by " + @author + "\n"
     end
     
 end
