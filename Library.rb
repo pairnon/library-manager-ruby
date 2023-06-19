@@ -44,4 +44,12 @@ class Library
         # TODO
     end
 
+    def to_s()
+        out = ""
+        out += "Library Admin: " + admin.get_name() + "\n"
+        # TODO loop
+        out += "\n"
+        # TODO loop
+        return out
+
 end
