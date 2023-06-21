@@ -30,16 +30,16 @@ class Library
         return @reg_users
     end
 
-    def add_reg_user(reg_user)
+    def add_reg_user!(reg_user)
         # TODO
     end
 
-    def add_reg_user(name, id)
+    def add_reg_user!(name, id)
         reg_user = RegUser.new(name, id)
         # TODO
     end
 
-    def add_reg_user(name, id, loans)
+    def add_reg_user!(name, id, loans)
         reg_user = RegUser.new(name, id, loans)
         # TODO
     end
