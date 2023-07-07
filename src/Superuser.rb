@@ -10,6 +10,11 @@ class Superuser < User
         return @logged_in
     end
 
+    def to_s()
+        out = super.to_s() + " | Logged-In: " + @logged_in.to_s
+        return out
+    end
+
     # TODO
 
 end
