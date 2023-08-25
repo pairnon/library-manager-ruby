@@ -1,3 +1,3 @@
 # library-manager-ruby
-Ruby version of library-manager
+Ruby implementation of library-manager «in progress»
 https://github.com/pairnon/library-manager
